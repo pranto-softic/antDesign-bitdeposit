@@ -1,0 +1,72 @@
+.login-form {
+  // max-width: 300px;
+
+  .login-form-margin {
+    margin-bottom: 16px;
+  }
+
+  .login-form-forgot {
+    float: right;
+  }
+
+  .input-field-wrapper {
+    &.ant-form-item-has-error {
+      .ant-input {
+        border-color: #ff4d4f !important;
+      }
+    }
+
+    .ant-input {
+      width: 100%;
+      padding: 8px 15px;
+      color: #352f7f;
+      background-color: #c3cdff;
+      border-radius: 10px;
+      border: 1px;
+      border-style: solid;
+      border-color: #c3cdff;
+      font-family: "Poppins", sans-serif;
+      transition: border 0.3s ease-in-out;
+
+      &::placeholder {
+        color: #352f7f;
+      }
+
+      &.ant-input:hover {
+        border-color: #4d44b5;
+      }
+
+      &.ant-input:focus {
+        border-color: #4d44b5;
+        box-shadow: none;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .login-form-button {
+    width: 100%;
+    background-color: #ffcc00;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 8px;
+    padding: 8px 194px;
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #013d5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all linear;
+    border-color: #ffcc00;
+
+    &:hover {
+      background-color: #d5af1a !important;
+      color: #013d5d !important;
+    }
+  }
+}

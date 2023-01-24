@@ -1,0 +1,17 @@
+.btn-wrapper {
+  .btn {
+    background-color: red;
+    border: none;
+  }
+}
+
+.login-form-wrapper {
+  background-color: #262260;
+  box-shadow: 0px 4px 18px rgb(0 0 0 / 25%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border-radius: 36px;
+  padding: 30px;
+  width: 500px;
+  margin: auto;
+}
